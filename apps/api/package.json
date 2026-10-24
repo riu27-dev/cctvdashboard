@@ -10,6 +10,7 @@
   "keywords": [],
   "type": "module",
   "dependencies": {
+    "@cctv/shared": "^1.0.0",
     "fastify": "^5.12.7"
   },
   "devDependencies": {
