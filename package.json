@@ -1,0 +1,27 @@
+{
+  "name": "cctvdashboard",
+  "version": "1.0.0",
+  "description": "Health dashboard for CCTV/IP camera devices. Tracks their status, uptime and alerts per client ID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riu27-dev/cctvdashboard.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/riu27-dev/cctvdashboard/issues"
+  },
+  "homepage": "https://github.com/riu27-dev/cctvdashboard#readme",
+  "private": "true",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
